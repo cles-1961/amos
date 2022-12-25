@@ -1,0 +1,10 @@
+{
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "cSpell.words": [
+    "esbuild",
+    "exceljs",
+    "pinia",
+    "tailwindcss",
+    "vueuse"
+  ]
+}

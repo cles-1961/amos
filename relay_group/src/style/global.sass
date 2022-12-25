@@ -1,0 +1,18 @@
+@import ./quasar-variables
+
+@mixin color-class($class, $value)
+  .bg-#{$class}
+    background: $value
+  .text-#{$class}
+    color: $value
+  .border-#{$class}
+    border-color: $value
+
+@include color-class('main', $main)
+
+.flex-fill-full-scroll
+  overflow: auto
+  height: 0
+  flex-grow: 1
+
+
